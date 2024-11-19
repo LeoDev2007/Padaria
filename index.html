@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Padaria Tradição</title>
+
+    <!-- google fonts -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <ul>
+            <li>Home</li>
+            <li>A empresa</li>
+            <li>Buffets</li>
+            <li>Cardápios</li>
+            <li>Encomendas</li>
+            <li>Eventos Corporativos</li>
+            <li>Contato</li>
+        </ul>
+    </header>
+    <section class="padaria">
+        <div class="text">
+            <h2 id="titulo">Padaria Tradição</h2>
+            <p>Sabores que atravessam gerações.</p>
+        </div>
+    </section>
+
+    <section class="infos">
+        <div class="promos">
+            <h2>Promoções da semana</h2>
+            <div class="items">
+                <div class="product">
+                    <h3>Pão Francês</h3>
+                    <p>R$ 12,90/kg</p>
+                    <p>Válido até domingo</p>
+                </div>
+                <div class="product">
+                    <h3>Bolo de Chocolate</h3>
+                    <p>R$ 29,90</p>
+                    <p>Compre 1 Leve 2</p>
+                </div>
+                <div class="product">
+                    <h3>Café da Manhã</h3>
+                    <p>R$ 24,90</p>
+                    <p>Das 6h às 10h</p>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="cards">
+            <div class="categorias">
+                <div class="tipo">Forneria</div>
+                <div class="tipo">Padaria</div>
+                <div class="tipo">Mercearia</div>
+                <div class="tipo">Adega</div>
+                <div class="tipo">Confeitaria</div>
+            </div>
+
+            <div class="images">
+                <div class="image"><img src="./images/pãespqno.avif"></div>
+                <div class="image"><img src="./images/bolo.avif"></div>
+                <div class="image"><img src="./images/taças.avif"></div>
+                <div class="image"><img src="./images/mercado.avif"></div>
+            </div>
+        </div>
+
+        <div class="about">
+            <div class="about-text">
+                <h3>Nossa História</h3>
+                <p>Desde 1980, a Padaria Tradição tem sido sinônimo de
+                    qualidade e tradição em São Paulo. Começamos como
+                    uma pequena padaria familiar e hoje somos
+                    referência em produtos artesanais e atendimento de
+                    excelência.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="tradicao">Tradição</div>
+        <div class="footer-text">
+            <p>Av. Paulista, 1000 - São Paulo, SP</p>
+            <p>Tel: (11) 3333-4444</p>
+            <p>© 2024 Padaria Tradição. Todos os direitos
+                reservados.</p>
+        </div>
+    </footer>
+
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const titulo = document.getElementById('titulo');
+            titulo.classList.add('reveal');
+        });
+    </script>
+</body>
+
+</html>
